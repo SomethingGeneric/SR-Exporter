@@ -45,5 +45,5 @@ with open("records.csv", "w", newline='') as csvfile:
 
         c += 1
 
-        if c == 300:
+        if c == 300: # there are a scary amount of these runs, and the janky version bit dies after a while
             break
